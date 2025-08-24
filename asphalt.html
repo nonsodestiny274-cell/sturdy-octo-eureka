@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          
+        div{
+            width: 200px;
+            height: 200px;
+            margin-bottom: 10px;
+            background:linear-gradient(red,purple,blue,pink);
+            animation-name: meet;
+            animation-duration: 2s;
+        }
+        @keyframes meet{
+             from{background: linear-gradient(red,purple,blue,pink);}
+             to{background: linear-gradient(red,white,black),orangered,blue;}
+        }
+        
+        section{
+            width: 200px;
+            height: 200px;
+            background-color: blueviolet;
+            position: relative;
+            animation: milk;
+            animation-duration: 10s; 
+        }
+        @keyframes milk{
+            0%{ background-color: blueviolet;}
+            25%{background-color: pink;}
+            50%{background-color: blue;}
+            70%{background-color: brown;}
+            100%{ background-color: yellowgreen;}
+        }
+    </style>
+</head>
+<body>
+    <p>in animation you are going to learn @keyframes,animation name,animation-duration,animation-delay,animation-iteraton-count,animation-direction,animation-timing-function,animation-fill-mode
+   </p>
+    <p>@keyframes specify how the animation will
+        gradualy transform
+    </p>
+    <div></div>
+    <section></section>
+</body>
+</html>
